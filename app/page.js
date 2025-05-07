@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Team from "@/components/Team";
 import { Testimonials } from "@/components/testimonials";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -18,10 +18,8 @@ export default function Home() {
     <Feature />
     <Client/>
     <Events/>
-    <Testimonials/>
-    
+    <Testimonials/> 
     <Team/>
-   
     <Contact/>
     <Footer/>
     </>
